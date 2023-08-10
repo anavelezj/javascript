@@ -54,7 +54,7 @@ console.log(resultado); //44 => 22*2
 const cadena ="5";
 const numeroE=5;
 const condicion = false;
-const nuloE=null;
+const nuloE=null; 
 let indefinidoE;
 
 console.log(numeroE+condicion); //6  false 0 true1
