@@ -1,4 +1,5 @@
-//One of the fundamental differences of objects versus primitives is that objects are stored and copied “by reference”, whereas primitive values: strings, numbers, booleans, etc – are always copied “as a whole value”.
+//One of the fundamental differences of objects versus primitives is that objects are stored and copied “by reference”, 
+//whereas primitive values: strings, numbers, booleans, etc – are always copied “as a whole value”.
 
 let message = "Hello!";
 let phrase = message;
@@ -82,7 +83,8 @@ alert( user4.name ); // still John in the original object
 //We can also use the method Object.assign.
 //the syntax is:
 
-Object.assign(dest, ...sources) //The first argument dest is a target object., Further arguments is a list of source objects.
+Object.assign(dest, ...sources) //The first argument dest is a target object., 
+//Further arguments is a list of source objects.
 
 let user6 = { name: "John" };
 

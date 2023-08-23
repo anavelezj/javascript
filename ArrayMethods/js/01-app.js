@@ -1,6 +1,8 @@
 // Veamos una serie de métodos muy útiles cuando se trabaja con arrays y algunos casos de uso
 const meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio'];
 
+//lo que es constante es la referencia no los valores del arreglo
+
 const carrito = [
     { nombre: 'Monitor 20 Pulgadas', precio: 500},
     { nombre: 'Televisión 50 Pulgadas', precio: 700},
@@ -9,7 +11,7 @@ const carrito = [
     { nombre: 'Teclado', precio: 50},
     { nombre: 'Celular', precio: 500},
     { nombre: 'Bocinas', precio: 300},
-    { nombre: 'Laptop', precio: 800},
+    { nombre: 'Laptop', precio: 800}
 ];
 
 // Si te gustaría saber si nuestro arreglo de meses, tiene el mes de Enero, podrías hacerlo con un foreach
@@ -26,6 +28,8 @@ console.log(resultadoI);
 // En el caso de un arreglo de objetos .includes no es la mejor opción, podrías utilizar uno llamado .some
 const existe = carrito.some( producto => producto.nombre === 'Celular' );
 console.log(existe);
+
+// some para objetos, include para primitivos
 
 // Some en un arreglo tradicional
 const existe2 = meses.some( mes => mes === 'Febrero' );
